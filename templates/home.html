@@ -10,8 +10,54 @@
 <section class="section-intro padding-y-sm">
 <div class="container">
 
-<div class="intro-banner-wrap">
-	<img src="{% static 'images/banners/1.jpg' %}" class="img-fluid rounded">
+<div class="banner-wrap">
+	<div style="display:flex;flex-direction:column;">
+		<div style="display:flex;font-size:8pt">
+			<p style="background: #74BF77;padding: 0.5em;	">
+				Welcome to Hydra
+			</p>
+		</div>
+		
+		<div>
+			<h2 style="font-family: 'Raleway', sans-serif;">
+				GreenHouse
+			</h2>
+			<p class="Automated">
+				Fully Automated
+			</p>
+		</div>
+		
+		<div>
+			<p>
+				Welcome to our greenhouse system, where we bring the joy of gardening to your 
+				<br>
+				home all year round.
+				Our state-of-the-art system provides the perfect environment 
+				<br>
+				for your plants to thrive, no matter the weather outside.
+				<br>
+				<br>
+				<br>
+				With our greenhouse system, you can grow your own fresh herbs,
+				vegetables, and 
+				<br>
+				fruits, or create a beautiful indoor garden to enhance the aesthetics of your home.
+				<br>
+				Our system is designed to be easy to use and maintain, so you can focus on enjoying 
+				<br>
+				the benefits of your indoor garden
+			</p>
+		</div>
+		<div  class="lower-bottons">
+			<a href="{%url 'store'%}% " class="btn btn-outline-dark float-left read-more">Read More</a>
+			<a href="{%url 'store'%}% " class="btn btn-primary float-left read-more">Join Us</a>
+
+		</div>
+	</div>
+	<div>
+		<img class="circle-img" src="{%static './images/banners/istockphoto-1388608732-612x612.png' %}" alt="Greenhouse" />
+		
+	</div>
 </div>
 
 </div> <!-- container //  -->
