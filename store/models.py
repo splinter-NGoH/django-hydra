@@ -72,6 +72,7 @@ def upload_to(instance, filename):
     return "images/leafs/{filename}".format(filename=filename)
 
 
+
 class MyModel(models.Model):
     device_id = models.CharField(max_length=255)
     prediction = models.CharField(max_length=255, null=True, blank=True)

@@ -16,6 +16,7 @@ class ProductAdmin(admin.ModelAdmin):
     )
     prepopulated_fields = {"slug": ("product_name",)}
 
+
 class MyModelAdmin(admin.ModelAdmin):
     list_display = ("device_id", "image_url", "prediction")
 
