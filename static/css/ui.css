@@ -239,9 +239,9 @@ article:after,
   padding-right: 7px;
 }
 
-.bg {
+/* .bg {
   background-color: #f8f9fa;
-}
+} */
 
 .bg-white {
   background-color: #fff;
@@ -428,8 +428,8 @@ p:last-child {
 }
 
 .brand-wrap .logo, .navbar-brand .logo {
-  margin-right: 7px;
-  max-height: 42px;
+  margin-right: 2px;
+  max-height: 65px;
   display: inline-block;
 }
 
@@ -447,7 +447,7 @@ p:last-child {
   position: relative;
 }
 .widget-header a {
-  color: #343a40;
+  font-weight: bold;
 }
 .widget-header a:hover {
   color: #3167eb;
